@@ -1,0 +1,27 @@
+html{   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}   
+body{   
+    margin: 0%; 
+}
+header{ 
+    background: purple; 
+height: 100px;  
+}
+h1{ 
+    text-align: justify;    
+    color: black;   
+    line-height: 100px;
+    margin: 0%;
+}   
+section{ 
+    display:flex;
+    flex-wrap: nowrap; 
+}
+article{ 
+    padding: 10px;  
+    margin: 10px;   
+    color: aquamarine;  
+    background-color: rgb(106, 106, 212);
+    flex: 200px;
+}

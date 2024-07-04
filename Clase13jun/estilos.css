@@ -1,0 +1,45 @@
+.box{   
+    width: 200px;   
+    height: 200px;  
+    border: solid;
+}
+
+.caja1{ 
+    background: linear-gradient(red, yellow); 
+    border-radius: 100px;
+}
+
+.caja2{ 
+    background: linear-gradient(to right, violet, purple); 
+}
+
+.caja3{ 
+    background: linear-gradient(to bottom right, green, yellow, red); 
+}
+
+.caja4{ 
+    background: linear-gradient(-45deg, orange, red); 
+}   
+.caja5{ 
+    background: linear-gradient(rgb(85, 28, 85),purple, rgb(171, 135, 171)); 
+}
+
+.caja6{ 
+    background: linear-gradient(rgba(255, 255, 255, 0),purple, rgb(85, 28, 85)); 
+}   
+.caja7{ 
+    background: repeating-linear-gradient(rgb(28, 85, 54),purple, rgba(255, 255, 255, 0)); 
+}   
+.caja8{ 
+    background: linear-gradient(rgb(85, 28, 85),rgb(73, 73, 181), rgba(255, 255, 255, 0),rgb(85, 28, 85)); 
+    border-radius: 100px;
+}
+
+.caja9{ 
+    background: radial-gradient(rgb(85, 28, 85),rgb(73, 73, 181), rgba(255, 255, 255, 0),rgb(85, 28, 85)); 
+}   
+.caja10{ 
+    background: radial-gradient(circle, rgba(21, 27, 189, 0.806),rgb(181, 73, 163), rgba(62, 209, 152, 0.705),rgb(85, 28, 85)); 
+    border-radius: 100px;
+}
+

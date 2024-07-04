@@ -1,0 +1,30 @@
+body{ 
+    margin: 0;  
+    padding: 0;
+}   
+header { 
+    padding: 30px;  
+    background-color: cornflowerblue;   
+    color: black;   
+    font-size: 3em;
+    font-weight: bold;  
+    text-transform: uppercase;    
+}   
+.tabla {  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: grid;
+    gap: 1px;   
+    grid-template-columns: 20% repeat(2,40%);
+    margin: o auto;
+}   
+.tabla div { 
+    background-color: rgb(177, 69, 118);    color: black;   
+    padding: 18px;  
+    text-align: center;
+}   
+.cabecera{ 
+    grid-column: 1/4;
+}   
+.sidebar{ 
+grid-row: 2/ span 3;    
+}

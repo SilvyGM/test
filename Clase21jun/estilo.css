@@ -1,0 +1,24 @@
+.contenedor{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(3, 1fr );
+    grid-template-rows: repeat(3,1fr);
+}   
+.items{ 
+background-color: blueviolet;   
+border: 1px solid white;    
+padding: 1em;
+font-family: Arial, Helvetica, sans-serif;  
+color: black;   
+text-align: center;
+}
+.uno{ grid-column: 1/3;
+    grid-row: 1/3;
+background-color: aquamarine;}
+.dos{ grid-column-start:2;
+    grid-column-end: 4;
+    grid-row-start: 1;  
+    grid-row-end: 2;
+    background-color: blue;
+    justify-content: ;
+}

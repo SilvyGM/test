@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../MiprimerHTML"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TablesHTML"
+	}
+}

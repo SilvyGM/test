@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "silvyG";
+    src: url(../mickey_mouse/MickeyMouse_PERSONAL_USE_ONLY.otf); 
+}
+@font-face {
+    font-family: "rocky";
+    src: url(../honey_crepes/Honey\ Crepes.otf);
+}
+h1{ 
+    font-family: silvyG, verdana, sans-serif;
+}
+.font1{ 
+    text-align: center;     
+    font-family: rocky, Verdana, Geneva, Tahoma, sans-serif 
+}

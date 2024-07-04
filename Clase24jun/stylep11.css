@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0; }
+    header{
+    padding: 30px; 
+    background: #d04ae2;
+    color: #030303;
+    font-size: 3em; 
+    font-weight: bold; 
+    text-transform: uppercase;
+    }
+    html {
+    scroll-behavior: smooth;
+    }
+    section {
+    min-height: 100vh; box-sizing: border-box;
+    }    
+    #posts {
+    padding: 10px;
+    background-color: rgb(186, 165, 215);
+    display: grid;
+    grid-template: repeat(2, 300px) / repeat(3, 350px); gap: 10px;
+    justify-content: center;
+    align-content: center;
+    }
+    #posts .post {
+    display: grid; 
+    align-content: end; 
+    border-radius: 5px; 
+    background-color: bisque;
+    background-size: cover; 
+    background-position: center center;
+    overflow: hidden; }
+    #posts .post a {
+    color: white; 
+    text-decoration: none;
+    }
+    #posts .post .title {
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    padding: 10px; }
+    #posts .post .title:hover { 
+        background-color: bisque; 
+        color: black;
+    }
+    #posts .post.post-1 {
+    background-image: url(./imgp11/eiffel.jpeg);
+    }
+    #posts .post.post-2 {
+    background-image: url(./imgp11/elderberg\ afternoon.jpeg); }
+    #posts .post.post-3 {
+    background-image: url(./imgp11/elderlberg.jpeg);
+    }
+    #posts .post.post-4 {
+    background-image: url(./imgp11/fontana\ di\ trevi.jpeg); }
+    #posts .post.post-5 {
+    background-image: url(./imgp11/louvre.jpeg);
+    }
+    #posts .post.post-6 {
+    background-image: url(./imgp11/milan\ church.jpeg); }

@@ -1,0 +1,20 @@
+body{ margin: 0; padding: 0;
+}
+header{
+padding: 30px; background: #5c80da;
+color: #111112;
+font-size: 3em; font-weight: bold; text-transform: uppercase;
+} .grid-container {
+display: grid;
+grid-template-columns: auto auto auto auto auto auto; gap: 10px;
+background-color: #2c3136;
+padding: 10px;
+}
+.grid-container > div {
+background-color: rgba(89, 148, 226, 0.8); text-align: center;
+padding: 20px 0;
+font-size: 30px;
+}
+.item8 {
+grid-area: 1 / 2 / 5 / 6;
+}
