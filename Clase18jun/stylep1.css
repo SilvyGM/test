@@ -1,0 +1,26 @@
+body{   
+    margin: 0px;    
+    padding: 0px;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}   
+header{     
+    padding: 30px;  
+    background-color: blueviolet;   
+    color: bisque;  
+    font-size: 3em; 
+    font-weight: bold;  
+}
+nav{ 
+    display: flex;  
+    justify-content: flex-start;    
+    background: #ccc;
+}   
+nav a {     
+    color: white;
+    text-decoration: none;  
+    padding: 15px;
+}   
+nav a:hover {     
+    background-color: rgb(157, 157, 214); 
+    color: white;
+}

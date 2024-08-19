@@ -1,0 +1,9 @@
+
+{
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "one-liner-joke": "^1.2.2"
+  }
+}

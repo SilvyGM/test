@@ -1,0 +1,12 @@
+let a= 5;
+let b = 10;
+let suma = a + b;
+let resta = a - b;
+let multipl= a * b;
+let division = a / b;
+let modulo = a % b;
+alert("La suma de " + a + " y " + b + " es: " + suma); 
+alert("La resta de " + a + " y " + b + " es: " + resta);
+alert("La multiplicacion de " + a + " y " + b + " es: " + multipl);
+alert("La division de " + a + " y " + b + " es: " + division);
+alert("El modulo de " + a + " y " + b + " es: " + modulo);

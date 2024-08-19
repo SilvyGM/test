@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+    <body>
+        <h1>Registro de Usuario</h1>    
+        <form action="" id="registroForm">
+        <input type="text" id="nombres" placeholder="nombres">  
+        <input type="text" id="apellidos" placeholder="apellidos">
+        <input type="correo" id="correo" placeholder="correo electrónico">  
+        <input type="password" id="contraseña" placeholder="Contraseña">
+        <button type="submit">Registrar</button>    
+    </form>
+    <h2> Inicio de Sesion</h2>
+    <form action="" id="loginform"> 
+        <input type="correo" id="logincorreo" placeholder="correo" required>    
+        <input type="password" id="logincontraseña" placeholder="contraseña" required>  
+        <button type="submit">Iniciar Sesión</button>
+    </form>
+    <h2>Usuarios Registrados</h2>   
+    <table id="usuariostabla">  
+        <thead> 
+            <tr>    
+                <th>Nombres</th>    
+                <th>Apellidos</th>  
+                <th>Correo</th> 
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="./js/app.js"></script>
+</body>
+</html>

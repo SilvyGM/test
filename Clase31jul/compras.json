@@ -1,0 +1,26 @@
+{   
+    "tienda" : "surtimax",
+    "fecha": "2024-07-31",
+    "numero_factura" : 1,
+    "cliente" : {
+        "id" : 2020,
+        "nombre" :"mauricio",
+        "email" : "mauricio@algo.com",
+        "telephone" : "55555"
+},
+"detalle" :[    
+    {
+        "nombre" : "calado",
+        "precio" : 100,
+        " cantidad" : 2
+    },
+    {
+        "id" : 2,
+        "descripcion" : "huevos",
+        "precio" : 200,
+        "cantidad" : 4
+    }
+],
+"total" : 9000,
+"metodo_pago": "efectivo"
+}  

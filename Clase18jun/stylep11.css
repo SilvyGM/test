@@ -1,0 +1,50 @@
+body{   
+    margin: 10px;    
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: beige;
+}
+header{ height: 70px;   
+    line-height: 70px;  
+    padding-left: 10px;
+    background-color: black;
+    color: white; 
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-align: end;
+}
+section{    
+display: flex;
+justify-content: center;
+margin-right: 10px;
+border-radius: 10px ;
+}   
+.Article1{  
+    border-radius: 20px;
+    background: #5d5dd5;
+    color: black;
+    text-align: justify;
+    padding: 20px;
+}
+.Article2{  
+    border-radius: 20px;
+    background: rgb(213, 124, 213);
+    color: black;
+    text-align: justify;
+    padding: 20px;
+}
+.Article3{  
+    border-radius: 20px;
+    background: blueviolet;
+    color: black;
+    text-align: justify;
+    padding: 20px;
+}
+img{ 
+    height: 200px;
+    padding: 20px;
+}
+p{  
+    padding: 5px;
+}

@@ -1,0 +1,1 @@
+const saludador= require('saludador');

@@ -1,0 +1,173 @@
+.biggest{   
+    display: grid;   
+    grid-column: auto;  
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 5px
+}
+.container{
+    width: 600px;
+    height: auto;   
+    overflow: hidden;
+    transition: 0.5s ease;
+    background: linear-gradient(to right, rgb(0, 255, 17), rgb(0, 166, 255), rgb(255, 0, 212));
+}
+.container img{    
+    width: 60%;    
+    height: 60%;
+    object-fit: cover;  
+    transition: transform 1s ease;
+}
+.spider:hover{    
+    transform: scale(1.2);
+}
+.container2{   
+    width: 300px;   
+    height: auto;   
+    background: linear-gradient(to left, pink, purple,rgb(130, 238, 184));
+    overflow: hidden;
+    transition: filter 0.5s ease;
+}
+.container2 img{    
+    width: 70%;    
+    height: auto;
+    object-fit: cover;  
+    filter: blur(0);    
+    transition: filter 0.5s ease;
+}
+.mandragora:hover {    
+    filter: blur(5px);
+}
+.container3{    
+    width: 300px;
+    height: 300px;
+    background: linear-gradient( to top, #ffa500, #ff6b6b);
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+.container3 img{    
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    filter: grayscale(0);
+    transition: 0.5s ease;
+}
+.container3:hover{    
+    filter: grayscale(100%);
+}
+.container4{ 
+    width: 400px;
+    height: auto;
+    background: linear-gradient(to bottom, #ff0000, #ffff00, #00ff00, #0000ff);
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+.container4 img{
+width: 70%;
+height: 70%;
+transition: filter 0.5s ease;
+}
+.container4:hover{
+filter: sepia(100%);
+}
+.container5{    
+width: 300px;
+height: auto;
+background: linear-gradient(to right, #0000ff, #00ffff, #ffff00, #ff0000);
+overflow: hidden;
+transition: 0.5s ease;
+}
+.container5 img{
+width: 50%;
+height: 50%;
+object-fit: cover;
+filter: saturate(1);
+transition: filter 0.5s ease;
+}
+.container5:hover{
+filter: saturate(3);
+}
+.container6{
+    width: 600px;
+    height: auto;
+    background: linear-gradient(to left, #ff0000, #2d2d2b, #eef3ee, #00ffa6);
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+.container6 img{
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+    filter: brightness(1);
+    transition: filter 0.5s ease;
+}
+.container6:hover{
+    filter: brightness(2);
+}
+.container7{    
+    width: 300px;
+    height: auto;
+    background: linear-gradient(to top, #0095ff, #8735a7, #ffff00, #00ff00);
+    overflow: hidden;
+    transition: 0.5s ease;
+}   
+.container7 img{
+    width: 100%;    
+    height: 100%;
+    object-fit: cover;
+    filter: contrast(1);
+    transition: filter 0.5s ease;
+}
+.container7:hover{
+    filter: contrast(2);
+}
+.container8{    
+    width: 400px;
+    height: auto;
+    background: linear-gradient(to bottom, #00ff00, #ffff00, #ff0000, #0000ff);
+    overflow: hidden;
+    transition: 0.5s ease;
+}   
+.container8 img{    
+    width: 100%;    
+    height: 100%;
+    object-fit: cover;
+    filter: hue-rotate(0deg);
+    transition: filter 0.5s ease;
+}
+.container8:hover{
+    filter: hue-rotate(180deg);
+}
+.container9{    
+    width: 300px;
+    height: auto;
+    background: linear-gradient(to right, #ff0000, #ffff00, #00ff00, #0000ff);
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+.container9 img {    
+width: 100%;    
+height: 100%;
+object-fit: cover;
+filter: invert(0);
+transition: filter 0.5s ease;
+}   
+.container9:hover{  
+    filter: invert(100%);
+}
+.container10{   
+    height: auto;
+    background: linear-gradient(to left, #00ff00, #ffff00, #ff0000, #0000ff);
+    overflow: hidden;
+    transition: 0.5s ease;
+    width: 600px;
+}
+.container10 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    transition: filter 0.5s ease;
+}
+.container10:hover{
+    opacity: 0.5;
+}
