@@ -1,0 +1,33 @@
+.cabecera {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    height: 10%;
+    width: 93%;
+    }
+    #indice {
+    position: absolute;
+    top: 13%;
+    left: 2%;
+    width: 25%;
+    height: 75%;
+    }
+    .contenido {
+    position: absolute;
+    top: 13%;
+    left: 30%;
+    width: 65%;
+    height: 75%;
+    }
+    #pie {
+    position: absolute;
+    top: 89%;
+    left: 30%;
+    height: 10%;
+    width: 65%;
+    }
+#imagen{
+        float: right; /*Posicionamos la imagen a la derecha con el
+        texto “flotando” a la izquierda*/
+        width: 11%; /*Definimos el tamaño de la caja como un 11% de la
+        anchura de la caja “contenido”*/}

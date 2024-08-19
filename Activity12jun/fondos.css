@@ -1,0 +1,18 @@
+body{ 
+    background-image: url("vangogh2.jpg")
+}
+
+.cabecera{  
+    background-image: url("vangogh.jpg") !important  
+}
+
+#indice{ background-image: url("monet.gif"); 
+}
+
+.contenido{
+    background-image: url("monet2.jpg") !important
+}
+
+#pie{
+    background-image: url("kandinsky.jpg") !important
+}

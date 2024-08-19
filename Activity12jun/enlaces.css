@@ -1,0 +1,28 @@
+#indice a link{ color: rgb(179, 114, 239);
+text-shadow: 1px;
+text-decoration: none; }
+
+#indice li>a:hover{
+    background-color: purple;
+    color: Gray;
+    text-transform: uppercase;
+    }
+
+#indice a:visited {
+    color: cornflowerblue;  
+    font-style: italic ;    
+    text-decoration: none; 
+}
+
+#pie a link {   
+    color: cadetblue;   
+    text-decoration: none;
+    text-align: justify;
+}
+
+#pie a:hover{   
+    color: black;   
+    border-style: solid; 
+    color: burlywood;
+    font-style: italic;
+}
